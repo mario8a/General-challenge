@@ -1,0 +1,56 @@
+ /* CONTENIDO */
+
+ .container-section-promo {
+   display: flex;
+   /* background-color: steelblue; */
+   width: 70%;
+   margin: 100px auto;
+   justify-content: center;
+   align-items: center;
+}
+
+.publish {
+   width: 600px;
+   margin: 0 auto;
+}
+
+.container-video {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+ 
+ .publish h3 {
+   font-family: "Alegreya", serif;
+   font-size: 40px;
+   line-height: 48px;
+   color: #025157;
+ }
+ 
+ .publish > p {
+   font-size: 16px;
+   color: #343434;
+   line-height: 1.5;
+   margin-bottom: 20px;
+ }
+ 
+ .publish > form {
+   display: flex;
+ }
+ 
+ .publish > form p {
+   color: #025157;
+   margin-right: 18px;
+ }
+
+.item-article {
+   width: 30%;
+   height: 100px;
+   background-color: springgreen;
+ }
+
+ button {
+   background-color: #025157;
+   color: #fff;
+   padding: 10px;
+}
