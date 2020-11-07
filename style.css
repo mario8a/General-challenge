@@ -49,8 +49,14 @@
    background-color: springgreen;
  }
 
+ input {
+   padding: 10px;
+ }
+
  button {
+   border: none;
    background-color: #025157;
    color: #fff;
-   padding: 10px;
+   padding: 12px;
+   border-radius: 5px;
 }
